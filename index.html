@@ -358,7 +358,7 @@
               possible.
             </p>
           </div>
-          <form action="https://formspree.io/f/meovjwjk" class="contact__form" method="post">
+          <form id="my-form" action="https://formspree.io/f/meovjwjk" class="contact__form" method="post">
             <div class="contact__control">
               <label for="name" class="visually-hidden">Name</label>
               <input
@@ -415,6 +415,9 @@
               <button type="submit">Send Message</button>
             </div>
           </form>
+          <div id="thank-you-popup" style="display:none;">
+  <p>Thank you! Your message has been sent.</p>
+</div>
         </div>
         <img
           class="contact__rings"
@@ -500,5 +503,6 @@
         </nav>
       </div>
     </footer>
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>
