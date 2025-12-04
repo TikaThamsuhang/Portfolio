@@ -3,7 +3,7 @@ const projectsData = {
   "project-1": {
     title: "Design Portfolio",
     category: "UI/UX Design",
-    image: "/assets/images/design.png",
+    image: "./assets/images/design.png",
     challenge: "To create a visually striking portfolio that showcases design skills without overwhelming the user. The goal was to balance aesthetics with usability.",
     solution: "Implemented a clean, grid-based layout with high-quality imagery and subtle hover effects. Used Figma for prototyping and ensuring a consistent design system.",
     techs: ["Figma", "Prototyping", "User Research", "Wireframing"],
@@ -13,7 +13,7 @@ const projectsData = {
   "project-2": {
     title: "E-Learning Platform",
     category: "Web Development",
-    image: "/assets/images/thumbnail-project-2-large.webp",
+    image: "./assets/images/thumbnail-project-2-large.webp",
     challenge: "Building a responsive landing page for an e-learning platform that effectively communicates value and converts visitors.",
     solution: "Developed a mobile-first landing page using semantic HTML and CSS Grid. Optimized images and assets for fast load times.",
     techs: ["HTML5", "CSS3", "Responsive Design"],
@@ -23,7 +23,7 @@ const projectsData = {
   "project-3": {
     title: "Task Master App",
     category: "React Application",
-    image: "/assets/images/thumbnail-project-3-large.webp",
+    image: "./assets/images/thumbnail-project-3-large.webp",
     challenge: "Creating a functional To-Do application with state management and local storage persistence.",
     solution: "Built with React hooks (useState, useEffect) to manage tasks. Implemented drag-and-drop reordering and a dark mode toggle.",
     techs: ["React", "JavaScript", "LocalStorage", "CSS Modules"],
@@ -33,7 +33,7 @@ const projectsData = {
   "project-4": {
     title: "Entertainment Hub",
     category: "Web App",
-    image: "/assets/images/thumbnail-project-4-large.webp",
+    image: "./assets/images/thumbnail-project-4-large.webp",
     challenge: "Developing a multi-page entertainment web app that fetches data from a local JSON file and allows bookmarking.",
     solution: "Used vanilla JavaScript to fetch data and dynamically render movies/series. Implemented a custom search filter and bookmarking system.",
     techs: ["JavaScript", "JSON", "Grid Layout", "Async/Await"],

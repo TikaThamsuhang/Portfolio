@@ -1,307 +1,281 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- STICKY NAVIGATION -->
+<header class="header sticky-nav">
+  <div class="wrapper header__wrapper">
+    <a href="/" class="header__logo">
+      tikathamsuhang<span class="dot">.</span>
+    </a>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!DOCTYPE html>
-  <html lang="en">
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li><a href="#hero" class="header__link active">Who Am I</a></li>
+        <li><a href="#summary" class="header__link">Summary</a></li>
+        <li><a href="#projects" class="header__link">Projects</a></li>
+        <li><a href="#contact" class="header__link">Contact</a></li>
+      </ul>
+    </nav>
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
-    <link rel="stylesheet" href="style.css" />
-    <title>UI/UX & Frontend Developer | Single-page developer portfolio</title>
-  </head>
-
-<body>
-  <!-- BACKGROUND ANIMATION -->
-  <div class="bg-animation"></div>
-
-  <!-- STICKY NAVIGATION -->
-  <header class="header sticky-nav">
-    <div class="wrapper header__wrapper">
-      <a href="/" class="header__logo">
-        tikathamsuhang<span class="dot">.</span>
+    <div class="header__socials">
+      <a href="https://github.com/TikaThamsuhang" target="_blank" aria-label="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+          </path>
+        </svg>
       </a>
+      <a href="https://www.linkedin.com/in/tikathamsuhang/" target="_blank" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+          <rect x="2" y="9" width="4" height="12"></rect>
+          <circle cx="4" cy="4" r="2"></circle>
+        </svg>
+      </a>
+    </div>
+  </div>
+</header>
 
-      <nav class="header__nav">
-        <ul class="header__list">
-          <li><a href="#hero" class="header__link active">Who Am I</a></li>
-          <li><a href="#summary" class="header__link">Summary</a></li>
-          <li><a href="#projects" class="header__link">Projects</a></li>
-          <li><a href="#contact" class="header__link">Contact</a></li>
-        </ul>
-      </nav>
+<main id="main">
 
-      <div class="header__socials">
-        <a href="https://github.com/TikaThamsuhang" target="_blank" aria-label="GitHub">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path
-              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-            </path>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/in/tikathamsuhang/" target="_blank" aria-label="LinkedIn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-            <rect x="2" y="9" width="4" height="12"></rect>
-            <circle cx="4" cy="4" r="2"></circle>
-          </svg>
-        </a>
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="wrapper hero__wrapper">
+      <div class="hero__content fade-up">
+        <h1 class="hero__headline">
+          Designing <span class="gradient-text">Experiences</span>,<br>
+          Building <span class="gradient-text">Futures</span>.
+        </h1>
+        <p class="hero__description">
+          I'm <strong>Tika Thamsuhang</strong>, a UI/UX Designer & Frontend Developer based in Nepal.
+          I bridge the gap between design and engineering to create pixel-perfect, interactive web experiences.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="./assets/documents/CV.pdf" class="btn btn--secondary" download="Tika-Thamsuhang-CV.pdf">Download
+            CV</a>
+        </div>
+      </div>
+      <div class="hero__visual fade-in">
+        <!-- Abstract 3D Shape or Profile with Effect -->
+        <div class="hero__glow"></div>
+        <img src="/assets/images/my-profile.png" alt="Tika Thamsuhang" class="hero__img">
       </div>
     </div>
-  </header>
+  </section>
 
-  <main id="main">
+  <!-- SUMMARY SECTION -->
+  <section id="summary" class="summary">
+    <div class="wrapper summary__wrapper">
+      <div class="section-header fade-up">
+        <h2 class="section-title">Summary</h2>
+        <p class="section-subtitle">My journey and expertise</p>
+      </div>
 
-    <!-- HERO SECTION -->
-    <section id="hero" class="hero">
-      <div class="wrapper hero__wrapper">
-        <div class="hero__content fade-up">
-          <h1 class="hero__headline">
-            Designing <span class="gradient-text">Experiences</span>,<br>
-            Building <span class="gradient-text">Futures</span>.
-          </h1>
-          <p class="hero__description">
-            I'm <strong>Tika Thamsuhang</strong>, a UI/UX Designer & Frontend Developer based in Nepal.
-            I bridge the gap between design and engineering to create pixel-perfect, interactive web experiences.
+      <div class="summary__grid">
+        <div class="summary__bio fade-up">
+          <h3>About Me</h3>
+          <p>
+            With over 2 years of experience in the digital space, I specialize in creating intuitive user interfaces
+            and robust frontend architectures.
+            My approach combines <strong>design thinking</strong> with <strong>clean code</strong> to deliver products
+            that are not only visually stunning but also performant and accessible.
           </p>
-          <div class="hero__actions">
-            <a href="#projects" class="btn btn--primary">View My Work</a>
-            <a href="./assets/documents/CV.pdf" class="btn btn--secondary" download="Tika-Thamsuhang-CV.pdf">Download
-              CV</a>
-          </div>
-        </div>
-        <div class="hero__visual fade-in">
-          <!-- Abstract 3D Shape or Profile with Effect -->
-          <div class="hero__glow"></div>
-          <img src="/assets/images/my-profile.png" alt="Tika Thamsuhang" class="hero__img">
-        </div>
-      </div>
-    </section>
-
-    <!-- SUMMARY SECTION -->
-    <section id="summary" class="summary">
-      <div class="wrapper summary__wrapper">
-        <div class="section-header fade-up">
-          <h2 class="section-title">Summary</h2>
-          <p class="section-subtitle">My journey and expertise</p>
-        </div>
-
-        <div class="summary__grid">
-          <div class="summary__bio fade-up">
-            <h3>About Me</h3>
-            <p>
-              With over 2 years of experience in the digital space, I specialize in creating intuitive user interfaces
-              and robust frontend architectures.
-              My approach combines <strong>design thinking</strong> with <strong>clean code</strong> to deliver products
-              that are not only visually stunning but also performant and accessible.
-            </p>
-            <p>
-              I thrive in collaborative environments and love solving complex problems through creative solutions.
-            </p>
-          </div>
-
-          <div class="summary__tech fade-up delay-100">
-            <h3>Tech Stack</h3>
-            <div class="tech-tags">
-              <span class="tech-tag">Figma</span>
-              <span class="tech-tag">HTML5</span>
-              <span class="tech-tag">CSS3</span>
-              <span class="tech-tag">JavaScript (ES6+)</span>
-              <span class="tech-tag">React.js</span>
-              <span class="tech-tag">Tailwind CSS</span>
-              <span class="tech-tag">Git</span>
-              <span class="tech-tag">WordPress</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Process Mini-Section -->
-        <div class="process-steps fade-up delay-200">
-          <div class="step">
-            <div class="step__icon">🔍</div>
-            <h4>Discovery</h4>
-          </div>
-          <div class="step__line"></div>
-          <div class="step">
-            <div class="step__icon">🎨</div>
-            <h4>Design</h4>
-          </div>
-          <div class="step__line"></div>
-          <div class="step">
-            <div class="step__icon">💻</div>
-            <h4>Build</h4>
-          </div>
-          <div class="step__line"></div>
-          <div class="step">
-            <div class="step__icon">🚀</div>
-            <h4>Launch</h4>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECTS SECTION -->
-    <section id="projects" class="projects">
-      <div class="wrapper projects__wrapper">
-        <div class="section-header fade-up">
-          <h2 class="section-title">Selected Works</h2>
-          <p class="section-subtitle">A collection of my best projects</p>
-        </div>
-
-        <div class="projects__grid">
-
-          <!-- Project 1 -->
-          <article class="project-card fade-up" data-id="project-1">
-            <div class="project-card__image-container">
-              <img src="/assets/images/design.png" alt="Design Portfolio" class="project-card__image">
-              <div class="project-card__overlay">
-                <button class="btn-view">View Case Study</button>
-              </div>
-            </div>
-            <div class="project-card__content">
-              <h3 class="project-card__title">Design Portfolio</h3>
-              <p class="project-card__category">UI/UX Design</p>
-            </div>
-          </article>
-
-          <!-- Project 2 -->
-          <article class="project-card fade-up delay-100" data-id="project-2">
-            <div class="project-card__image-container">
-              <img src="/assets/images/thumbnail-project-2-small.webp" alt="E-Learning Platform"
-                class="project-card__image">
-              <div class="project-card__overlay">
-                <button class="btn-view">View Case Study</button>
-              </div>
-            </div>
-            <div class="project-card__content">
-              <h3 class="project-card__title">E-Learning Platform</h3>
-              <p class="project-card__category">Web Development</p>
-            </div>
-          </article>
-
-          <!-- Project 3 -->
-          <article class="project-card fade-up delay-200" data-id="project-3">
-            <div class="project-card__image-container">
-              <img src="/assets/images/thumbnail-project-3-small.webp" alt="Todo App" class="project-card__image">
-              <div class="project-card__overlay">
-                <button class="btn-view">View Case Study</button>
-              </div>
-            </div>
-            <div class="project-card__content">
-              <h3 class="project-card__title">Task Master App</h3>
-              <p class="project-card__category">React Application</p>
-            </div>
-          </article>
-
-          <!-- Project 4 -->
-          <article class="project-card fade-up" data-id="project-4">
-            <div class="project-card__image-container">
-              <img src="/assets/images/thumbnail-project-4-small.webp" alt="Entertainment App"
-                class="project-card__image">
-              <div class="project-card__overlay">
-                <button class="btn-view">View Case Study</button>
-              </div>
-            </div>
-            <div class="project-card__content">
-              <h3 class="project-card__title">Entertainment Hub</h3>
-              <p class="project-card__category">Web App</p>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="contact">
-      <div class="wrapper contact__wrapper">
-        <div class="contact__content fade-up">
-          <h2 class="section-title">Let's Work Together</h2>
-          <p class="contact__text">
-            Have a project in mind? I'm always open to discussing new opportunities and ideas.
+          <p>
+            I thrive in collaborative environments and love solving complex problems through creative solutions.
           </p>
-          <form id="my-form" action="https://formspree.io/f/meovjwjk" class="contact__form" method="post">
-            <div class="form-group">
-              <input type="text" name="name" id="name" placeholder=" " required>
-              <label for="name">Name</label>
-            </div>
-            <div class="form-group">
-              <input type="email" name="email" id="email" placeholder=" " required>
-              <label for="email">Email</label>
-            </div>
-            <div class="form-group">
-              <textarea name="message" id="message" rows="4" placeholder=" " required></textarea>
-              <label for="message">Message</label>
-            </div>
-            <button type="submit" class="btn btn--primary btn--submit">Send Message</button>
-          </form>
+        </div>
+
+        <div class="summary__tech fade-up delay-100">
+          <h3>Tech Stack</h3>
+          <div class="tech-tags">
+            <span class="tech-tag">Figma</span>
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript (ES6+)</span>
+            <span class="tech-tag">React.js</span>
+            <span class="tech-tag">Tailwind CSS</span>
+            <span class="tech-tag">Git</span>
+            <span class="tech-tag">WordPress</span>
+          </div>
         </div>
       </div>
-    </section>
 
-  </main>
-
-  <footer class="footer">
-    <div class="wrapper footer__wrapper">
-      <p>&copy; 2024 Tika Thamsuhang. All rights reserved.</p>
-      <div class="footer__socials">
-        <a href="https://github.com/TikaThamsuhang" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/tikathamsuhang/" target="_blank">LinkedIn</a>
+      <!-- Process Mini-Section -->
+      <div class="process-steps fade-up delay-200">
+        <div class="step">
+          <div class="step__icon">🔍</div>
+          <h4>Discovery</h4>
+        </div>
+        <div class="step__line"></div>
+        <div class="step">
+          <div class="step__icon">🎨</div>
+          <h4>Design</h4>
+        </div>
+        <div class="step__line"></div>
+        <div class="step">
+          <div class="step__icon">💻</div>
+          <h4>Build</h4>
+        </div>
+        <div class="step__line"></div>
+        <div class="step">
+          <div class="step__icon">🚀</div>
+          <h4>Launch</h4>
+        </div>
       </div>
     </div>
-  </footer>
+  </section>
 
-  <!-- CASE STUDY MODAL -->
-  <div id="modal" class="modal" aria-hidden="true">
-    <div class="modal__overlay" data-close-modal></div>
-    <div class="modal__container">
-      <button class="modal__close" data-close-modal>&times;</button>
-      <div class="modal__content">
-        <!-- Content injected via JS -->
-        <div class="modal__header">
-          <h2 id="modal-title" class="modal__title">Project Title</h2>
-          <p id="modal-category" class="modal__category">Category</p>
-        </div>
-        <div class="modal__body">
-          <img id="modal-image" src="" alt="" class="modal__image">
-          <div class="modal__details">
-            <h3>The Challenge</h3>
-            <p id="modal-challenge">Description of the challenge...</p>
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects">
+    <div class="wrapper projects__wrapper">
+      <div class="section-header fade-up">
+        <h2 class="section-title">Selected Works</h2>
+        <p class="section-subtitle">A collection of my best projects</p>
+      </div>
 
-            <h3>The Solution</h3>
-            <p id="modal-solution">Description of the solution...</p>
+      <div class="projects__grid">
 
-            <h3>Technologies</h3>
-            <div id="modal-techs" class="tech-tags">
-              <!-- Tags injected here -->
+        <!-- Project 1 -->
+        <article class="project-card fade-up" data-id="project-1">
+          <div class="project-card__image-container">
+            <img src="/assets/images/design.png" alt="Design Portfolio" class="project-card__image">
+            <div class="project-card__overlay">
+              <button class="btn-view">View Case Study</button>
             </div>
+          </div>
+          <div class="project-card__content">
+            <h3 class="project-card__title">Design Portfolio</h3>
+            <p class="project-card__category">UI/UX Design</p>
+          </div>
+        </article>
 
-            <div class="modal__links">
-              <a id="modal-live" href="#" target="_blank" class="btn btn--primary">Live Demo</a>
-              <a id="modal-code" href="#" target="_blank" class="btn btn--secondary">View Code</a>
+        <!-- Project 2 -->
+        <article class="project-card fade-up delay-100" data-id="project-2">
+          <div class="project-card__image-container">
+            <img src="/assets/images/thumbnail-project-2-small.webp" alt="E-Learning Platform"
+              class="project-card__image">
+            <div class="project-card__overlay">
+              <button class="btn-view">View Case Study</button>
             </div>
+          </div>
+          <div class="project-card__content">
+            <h3 class="project-card__title">E-Learning Platform</h3>
+            <p class="project-card__category">Web Development</p>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card fade-up delay-200" data-id="project-3">
+          <div class="project-card__image-container">
+            <img src="/assets/images/thumbnail-project-3-small.webp" alt="Todo App" class="project-card__image">
+            <div class="project-card__overlay">
+              <button class="btn-view">View Case Study</button>
+            </div>
+          </div>
+          <div class="project-card__content">
+            <h3 class="project-card__title">Task Master App</h3>
+            <p class="project-card__category">React Application</p>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card fade-up" data-id="project-4">
+          <div class="project-card__image-container">
+            <img src="/assets/images/thumbnail-project-4-small.webp" alt="Entertainment App"
+              class="project-card__image">
+            <div class="project-card__overlay">
+              <button class="btn-view">View Case Study</button>
+            </div>
+          </div>
+          <div class="project-card__content">
+            <h3 class="project-card__title">Entertainment Hub</h3>
+            <p class="project-card__category">Web App</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="wrapper contact__wrapper">
+      <div class="contact__content fade-up">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="contact__text">
+          Have a project in mind? I'm always open to discussing new opportunities and ideas.
+        </p>
+        <form id="my-form" action="https://formspree.io/f/meovjwjk" class="contact__form" method="post">
+          <div class="form-group">
+            <input type="text" name="name" id="name" placeholder=" " required>
+            <label for="name">Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder=" " required>
+            <label for="email">Email</label>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" rows="4" placeholder=" " required></textarea>
+            <label for="message">Message</label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrapper footer__wrapper">
+    <p>&copy; 2024 Tika Thamsuhang. All rights reserved.</p>
+    <div class="footer__socials">
+      <a href="https://github.com/TikaThamsuhang" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/tikathamsuhang/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<!-- CASE STUDY MODAL -->
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal__overlay" data-close-modal></div>
+  <div class="modal__container">
+    <button class="modal__close" data-close-modal>&times;</button>
+    <div class="modal__content">
+      <!-- Content injected via JS -->
+      <div class="modal__header">
+        <h2 id="modal-title" class="modal__title">Project Title</h2>
+        <p id="modal-category" class="modal__category">Category</p>
+      </div>
+      <div class="modal__body">
+        <img id="modal-image" src="" alt="" class="modal__image">
+        <div class="modal__details">
+          <h3>The Challenge</h3>
+          <p id="modal-challenge">Description of the challenge...</p>
+
+          <h3>The Solution</h3>
+          <p id="modal-solution">Description of the solution...</p>
+
+          <h3>Technologies</h3>
+          <div id="modal-techs" class="tech-tags">
+            <!-- Tags injected here -->
+          </div>
+
+          <div class="modal__links">
+            <a id="modal-live" href="#" target="_blank" class="btn btn--primary">Live Demo</a>
+            <a id="modal-code" href="#" target="_blank" class="btn btn--secondary">View Code</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <div id="thank-you-popup" class="toast">
-    Message sent successfully!
-  </div>
+<div id="thank-you-popup" class="toast">
+  Message sent successfully!
+</div>
 
-  <script src="assets/js/scripts.js"></script>
+<script src="./assets/js/scripts.js"></script>
 </body>
 
 </html>
